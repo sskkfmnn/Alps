@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: "Cinzel";
+    src: url("../fonts/Cinzel-VariableFont_wght.ttf");
+}
+@font-face{
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+/* 
+border: #ccc.
+color logo: #999.
+color home: #fff.
+color: #333
+ */
+
+
+/* header */
+
+
+header{
+    font-family: "Cinzel";
+}
+
+header section{
+    background-image: url("../img/Background.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+header h1{
+    color: #999;
+    margin: 10px 0 20px 50px
+}
+
+header section h1{
+    color: #fff;
+    text-align: center;
+    font-size: 100px;
+    width: 50%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+
+/* main */
+
+
+main h2{
+    font-family: "Cinzel";
+}
+
+main article:nth-of-type(1) p{
+    font-family: "Poppins";
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main article:nth-of-type(1) h2{
+    text-align: center;
+    margin: 100px 0 100px 0;
+}
+
+main article:nth-of-type(2) h2{
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+
+main article:nth-of-type(2) p{
+    font-family: "Poppins";
+    margin-left: 50px;
+}
+
+main section div{
+    text-align: center;
+}
+
+main section div img{
+    height: 15vw;
+    padding: 0 40px 50px 0;
+}
+
+main .SOLD_OUT span{
+    color: red;
+}
+
+main .AVAILABLE span{
+    color: green;
+}
+
+
+/* footer */
+
+
+footer{
+    font-family: "Cinzel";
+    text-align: center;
+    border: 2px solid #999;
+    margin-top: 100px;
+}
+
+footer h1{
+    margin: 50px 0 50px 0;
+}
+
+footer nav a{
+    display: block;
+    color: black;
+    margin-bottom: 50px;
+}
